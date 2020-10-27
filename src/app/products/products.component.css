@@ -1,0 +1,35 @@
+/*HEADINGS*/
+h4{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*LIST*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 0.4em;
+  padding: 1em;
+  border-radius: 10px;
+  border: 2px solid #dc9644;
+
+}
+
+ul p {
+  font-style: italic;
+  margin-left: 1.2em;
+  font-weight: bold;
+}
+
+
+/*INPUT*/
+/*contact_page_input*/
+input[type=button]{
+  padding: 10px 20px;
+}
+

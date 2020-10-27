@@ -1,0 +1,27 @@
+
+<div class="product_container">
+  <ul *ngIf="products">
+    <li *ngFor="let product of products">
+      <div class="item">
+
+          <h4>
+            {{ product.shortdesc}}
+          </h4>
+          <div>{{product.longdesc}}</div>
+          <div> {{ product.unitsize }},{{ product.unitprice}}</div>
+        </div>
+
+        <input type="button" class="add_button" value="ADD">
+
+
+
+
+
+
+
+    </li>
+  </ul>
+
+
+
+</div>
